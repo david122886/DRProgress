@@ -21,6 +21,8 @@
 		6359EDD118852586005D60E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6359EDB318852586005D60E3 /* UIKit.framework */; };
 		6359EDD918852586005D60E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6359EDD718852586005D60E3 /* InfoPlist.strings */; };
 		6359EDDB18852586005D60E3 /* DRProgressViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EDDA18852586005D60E3 /* DRProgressViewTestTests.m */; };
+		6359EDE51885258F005D60E3 /* pdlay-courselistd_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6359EDE41885258F005D60E3 /* pdlay-courselistd_07@2x.png */; };
+		6359EDE91885272F005D60E3 /* DRProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EDE81885272F005D60E3 /* DRProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		6359EDD618852586005D60E3 /* DRProgressViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRProgressViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		6359EDD818852586005D60E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6359EDDA18852586005D60E3 /* DRProgressViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRProgressViewTestTests.m; sourceTree = "<group>"; };
+		6359EDE41885258F005D60E3 /* pdlay-courselistd_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdlay-courselistd_07@2x.png"; sourceTree = "<group>"; };
+		6359EDE71885272F005D60E3 /* DRProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRProgress.h; sourceTree = "<group>"; };
+		6359EDE81885272F005D60E3 /* DRProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +117,12 @@
 		6359EDB518852586005D60E3 /* DRProgressViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				6359EDE618852720005D60E3 /* DRProgress */,
 				6359EDBE18852586005D60E3 /* AppDelegate.h */,
 				6359EDBF18852586005D60E3 /* AppDelegate.m */,
-				6359EDC118852586005D60E3 /* Main.storyboard */,
 				6359EDC418852586005D60E3 /* ViewController.h */,
+				6359EDC118852586005D60E3 /* Main.storyboard */,
+				6359EDE41885258F005D60E3 /* pdlay-courselistd_07@2x.png */,
 				6359EDC518852586005D60E3 /* ViewController.m */,
 				6359EDC718852586005D60E3 /* Images.xcassets */,
 				6359EDB618852586005D60E3 /* Supporting Files */,
@@ -150,6 +157,15 @@
 				6359EDD718852586005D60E3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6359EDE618852720005D60E3 /* DRProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6359EDE71885272F005D60E3 /* DRProgress.h */,
+				6359EDE81885272F005D60E3 /* DRProgress.m */,
+			);
+			path = DRProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 			files = (
 				6359EDC818852586005D60E3 /* Images.xcassets in Resources */,
 				6359EDBA18852586005D60E3 /* InfoPlist.strings in Resources */,
+				6359EDE51885258F005D60E3 /* pdlay-courselistd_07@2x.png in Resources */,
 				6359EDC318852586005D60E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +268,7 @@
 			files = (
 				6359EDC618852586005D60E3 /* ViewController.m in Sources */,
 				6359EDC018852586005D60E3 /* AppDelegate.m in Sources */,
+				6359EDE91885272F005D60E3 /* DRProgress.m in Sources */,
 				6359EDBC18852586005D60E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
